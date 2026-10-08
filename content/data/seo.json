@@ -1,0 +1,36 @@
+{
+  "status": "Draft titles and descriptions; confirm domain and service locations before publication",
+  "canonical_base_url": null,
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Micron Fencing Company | Materials & Installation",
+      "description": "Explore barbed wire, chain link fencing, GI wire, concertina coils and fencing poles. Contact Micron for material supply, installation and servicing."
+    },
+    {
+      "slug": "about",
+      "title": "About Micron Fencing Company",
+      "description": "Learn about Micron Fencing Company and our approach to fencing materials, installation and servicing for farms, plots and development projects."
+    },
+    {
+      "slug": "products",
+      "title": "Fencing Products | Micron Fencing Company",
+      "description": "Explore barbed wire, chain link fencing, GI wire, concertina coils and GI fencing poles. Ask Micron for available specifications and pricing."
+    },
+    {
+      "slug": "services",
+      "title": "Fencing Installation & Servicing | Micron",
+      "description": "Discuss fencing installation, servicing and material supply with Micron Fencing Company. Share your site details to request a quotation."
+    },
+    {
+      "slug": "applications",
+      "title": "Fencing for Farms, Plots & Projects | Micron",
+      "description": "Find fencing solutions for agricultural lands, open plots, housing projects, solar farms and real estate ventures. Discuss your requirements with Micron."
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Micron Fencing Company | Request a Quote",
+      "description": "Request a quote for fencing materials, installation or servicing. Share your location, approximate boundary length and site requirements with Micron."
+    }
+  ]
+}

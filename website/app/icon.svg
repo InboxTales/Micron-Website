@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Simplified Micron mark for small sizes: two capped posts and the M wire, no mesh -->
+  <rect width="32" height="32" rx="7" fill="#171B1C"/>
+  <path fill="#F4D62B" d="M4.5 10 8 7l3.5 3v1h-1v15h-5V11h-1zM20.5 10 24 7l3.5 3v1h-1v15h-5V11h-1z"/>
+  <path fill="none" stroke="#F4D62B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M10.5 12.5 16 21.5l5.5-9"/>
+</svg>

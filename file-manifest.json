@@ -1,0 +1,259 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2049,
+      "sha256": "412a16da38169c6af6d2e393db4c46b71b167c628999694765d8c8121c6e876b"
+    },
+    {
+      "path": "assets/fonts/DejaVuSans-Bold.ttf",
+      "bytes": 708920,
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    {
+      "path": "assets/fonts/DejaVuSans.ttf",
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    {
+      "path": "assets/fonts/LICENSE.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "assets/logos/PNG/micron-horizontal-brand.png",
+      "bytes": 144472,
+      "sha256": "2a87a7a95b99f7e5c58109317f9131101689c0c1506b95ce7d14bc20114c2e99"
+    },
+    {
+      "path": "assets/logos/PNG/micron-horizontal-charcoal.png",
+      "bytes": 158105,
+      "sha256": "9467e76be06f8c7f357a5458fd151bf7d0387a0e3fe524247f591afa566a2685"
+    },
+    {
+      "path": "assets/logos/PNG/micron-horizontal-white.png",
+      "bytes": 111913,
+      "sha256": "c0a2d874794eb93497c95e8ed82964152fd274a9836d2b80bb9ab5c00875715b"
+    },
+    {
+      "path": "assets/logos/PNG/micron-horizontal-yellow.png",
+      "bytes": 158172,
+      "sha256": "ae99b09fb766c0e396c3b4b73527b7bf53dc81076e2a5e64a7cadbc75b9940a2"
+    },
+    {
+      "path": "assets/logos/PNG/micron-icon-charcoal.png",
+      "bytes": 150677,
+      "sha256": "b55ba83837821f5057f2985405cbc820dbdf2784329355abfe603413e8e0ea06"
+    },
+    {
+      "path": "assets/logos/PNG/micron-icon-white.png",
+      "bytes": 106851,
+      "sha256": "ce6f1581a71e8713404c227bab04996bb7494e4897fc9848051235e6f3c69e69"
+    },
+    {
+      "path": "assets/logos/PNG/micron-icon-yellow.png",
+      "bytes": 150440,
+      "sha256": "e1d8f805951785b0b4302c076ac7d6516ae63dfc349c0b87b6f6376c68837c7b"
+    },
+    {
+      "path": "assets/logos/PNG/micron-stacked-brand.png",
+      "bytes": 162366,
+      "sha256": "41f300754cdfbbab7ca83be045c77285e2357380da91f79c3958507643efd676"
+    },
+    {
+      "path": "assets/logos/PNG/micron-stacked-charcoal.png",
+      "bytes": 178127,
+      "sha256": "af058989c8a02f5f64f14309ab50886c8793a9d657f5283f676acdcb9e796c52"
+    },
+    {
+      "path": "assets/logos/PNG/micron-stacked-white.png",
+      "bytes": 40960,
+      "sha256": "22fdea304caaa92a37a7fd09583805dcf2e642d56be9b175957cd3a8225b61da"
+    },
+    {
+      "path": "assets/logos/PNG/micron-stacked-yellow.png",
+      "bytes": 178040,
+      "sha256": "c918c3f1d4ca61e475c212b5ca8191a9bbe91ad33019878a388d2afb618be70b"
+    },
+    {
+      "path": "assets/logos/README.txt",
+      "bytes": 1749,
+      "sha256": "c4b763e4046f48893eeba18f1e484295272694488badc3d24e41ed51232c6552"
+    },
+    {
+      "path": "assets/logos/SVG/micron-horizontal-brand.svg",
+      "bytes": 26635,
+      "sha256": "6ebfb43ac8082cc0753e2bba6e9e5b9f114d810f1353ab1fbe2bfbc29aeb6ad0"
+    },
+    {
+      "path": "assets/logos/SVG/micron-horizontal-charcoal.svg",
+      "bytes": 26638,
+      "sha256": "1ec565e166cc389a37e6b6d58abc8f06a930c05c4312a12768994a6a4e75c209"
+    },
+    {
+      "path": "assets/logos/SVG/micron-horizontal-white.svg",
+      "bytes": 26635,
+      "sha256": "3ac8b84d59c3b97745e2e0178ce05f73e5c717f1f99c92f54b34f2fc67d46125"
+    },
+    {
+      "path": "assets/logos/SVG/micron-horizontal-yellow.svg",
+      "bytes": 26636,
+      "sha256": "acd0c4cc43414ea3aa59fcd2dd9d2e8616eb2c106330ecb9dadfc1d524d70cf2"
+    },
+    {
+      "path": "assets/logos/SVG/micron-icon-charcoal.svg",
+      "bytes": 18396,
+      "sha256": "04b0ef111925cf898e5a96b5a3f8388ed2e373cef42d8b580accaa706de4b6ca"
+    },
+    {
+      "path": "assets/logos/SVG/micron-icon-white.svg",
+      "bytes": 18393,
+      "sha256": "75ad755e4843144b9817ac93336c353c372bbf1e849b15f80c40e4faaf6c5271"
+    },
+    {
+      "path": "assets/logos/SVG/micron-icon-yellow.svg",
+      "bytes": 18394,
+      "sha256": "f98d5cbeb661e1e24b4fc87a0ec6e0d6ba1b3c3e54c273a1c923c3c421fc4495"
+    },
+    {
+      "path": "assets/logos/SVG/micron-stacked-brand.svg",
+      "bytes": 26637,
+      "sha256": "b6f159e3b61e7491e1c08fce25f357882c4836e8757e24671e4cde73d25fa0c8"
+    },
+    {
+      "path": "assets/logos/SVG/micron-stacked-charcoal.svg",
+      "bytes": 26640,
+      "sha256": "070aef9ba7603d655b1258ca6a7fa6eee54300795485dca4bcfe0d07db29cf3a"
+    },
+    {
+      "path": "assets/logos/SVG/micron-stacked-white.svg",
+      "bytes": 26637,
+      "sha256": "a79bbfc5dfbb3c803c353881f06a48d2afa4241a3a2e21a65147d3667dc01402"
+    },
+    {
+      "path": "assets/logos/SVG/micron-stacked-yellow.svg",
+      "bytes": 26638,
+      "sha256": "79019292d606fb27f7c3ddfde8df090fbdf1bb6e0abc3a1b9a55f1ccd1cef09b"
+    },
+    {
+      "path": "assets/logos/asset-index.json",
+      "bytes": 2111,
+      "sha256": "1f5d025600b171f75f119ae2faf6629efa9c2789072f7a2969191e1754c38840"
+    },
+    {
+      "path": "assets/previews/Micron_Current_Logo_Concept.png",
+      "bytes": 1288694,
+      "sha256": "8bd9223a8c57079d2206423911e4e968644c7334f80bc23d56becf9e52221809"
+    },
+    {
+      "path": "assets/previews/Micron_Logo_Preview.png",
+      "bytes": 304278,
+      "sha256": "37d633410f123a1d0895dcf3c8b472cfdbee4faf30f4218bc1b59ea63387cde1"
+    },
+    {
+      "path": "brand/current-brand-guide.md",
+      "bytes": 4044,
+      "sha256": "189e7021cebfe5086e254162c5f6c774e5dda8b125d5411cab047582e72b2b53"
+    },
+    {
+      "path": "brand/design-tokens.css",
+      "bytes": 926,
+      "sha256": "06c2a1e3f4386f90577d312649812cee903fe56c6b94b1e2f39b6d4883c9c47a"
+    },
+    {
+      "path": "brand/reference/Micron_Brand_Book_Original_Concept_v1.pdf",
+      "bytes": 69406,
+      "sha256": "bc3e1d45b02c246a312fe1dbe8997802815f4b87e68020c8e81bc0f900db4ef5"
+    },
+    {
+      "path": "content/data/business-details-template.json",
+      "bytes": 424,
+      "sha256": "f0f53afa19d153197d48aac45e2ca90d5af2c09353e71951b23262a97ba51487"
+    },
+    {
+      "path": "content/data/products.json",
+      "bytes": 1874,
+      "sha256": "02ca787f1fb7e295ba5967a6b2e323c06322e5266bca5003680de20f2816620a"
+    },
+    {
+      "path": "content/data/seo.json",
+      "bytes": 1762,
+      "sha256": "75f23af644920b69e9d30b52d4f96f585d30b310861d20d1c9f9cecf75222563"
+    },
+    {
+      "path": "content/data/website-content.json",
+      "bytes": 17921,
+      "sha256": "e54cd42421d1cdf29c97bd636c0b05941d0a1ac68af7a594da201c89ced9a247"
+    },
+    {
+      "path": "content/faq.md",
+      "bytes": 1371,
+      "sha256": "7f217a7dd7910a9423170c205d719a504fabc0eb92719da163784e2c8e72c4df"
+    },
+    {
+      "path": "content/pages/01-home.md",
+      "bytes": 3577,
+      "sha256": "89779bc7f5152b4e7f06f5891d6727c2bb82319b820002791d58c597a562fc14"
+    },
+    {
+      "path": "content/pages/02-about.md",
+      "bytes": 1152,
+      "sha256": "43dace2d859786afbb54bb6d3a44b23a39a5d5c95759e70bf110594d6833746f"
+    },
+    {
+      "path": "content/pages/03-products.md",
+      "bytes": 2232,
+      "sha256": "2f0c97dabfb6a9b0b27b2a345811f634050dbc323ada166d7b53713bd8c7e6f4"
+    },
+    {
+      "path": "content/pages/04-services.md",
+      "bytes": 1225,
+      "sha256": "24fcaa4c1d2b3c144ab1e2aa6e2ec4ba8f44519fde3d3948c9f10bae752742ac"
+    },
+    {
+      "path": "content/pages/05-applications.md",
+      "bytes": 1372,
+      "sha256": "34d2fca855dd5079ef17f6ddc21b8ff64627901d6a61659251eb95bb91d43680"
+    },
+    {
+      "path": "content/pages/06-contact.md",
+      "bytes": 1218,
+      "sha256": "c696851fcae6e5976875a6bec307d8041060ecf48ec069c0f9684536dbdb5075"
+    },
+    {
+      "path": "content/shared-content.md",
+      "bytes": 1848,
+      "sha256": "434b233a1489fa125115151e1e464215b6fc0c8ad72e931ab2ae5724c6513336"
+    },
+    {
+      "path": "content/website-content.md",
+      "bytes": 14206,
+      "sha256": "b885cc1be34e1986982e7e8bc3c0fb9d6d42b25c72619d8ecd5cea0868e88e85"
+    },
+    {
+      "path": "handoff/asset-map.json",
+      "bytes": 734,
+      "sha256": "3d58dc3817c7ca7826b2bc3552444b9c1ed5cfee3d981f829c6be6cd6deb2011"
+    },
+    {
+      "path": "handoff/developer-handoff.md",
+      "bytes": 2663,
+      "sha256": "3721fc8dad914c211421b5010a2707500bba822aefca56b456b2f2e6b8bbf150"
+    },
+    {
+      "path": "handoff/image-requirements.md",
+      "bytes": 1636,
+      "sha256": "9e03eb7a0093da51270e14f1e5343074a1c863532b3c2384e04efeabae34e98e"
+    },
+    {
+      "path": "handoff/pre-launch-checklist.md",
+      "bytes": 1627,
+      "sha256": "a9e53186ef154b70342821a6bbf29243302b3842f97adf41fc66a8af9b0482e6"
+    },
+    {
+      "path": "handoff/sitemap.json",
+      "bytes": 929,
+      "sha256": "74f60b3d10e7882f907236f223d637ea46c051cf97a8294caafca1c1f0446511"
+    }
+  ]
+}

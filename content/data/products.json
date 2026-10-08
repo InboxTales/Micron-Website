@@ -1,0 +1,70 @@
+{
+  "note": "GSM values supplied by the business. Confirm their measurement basis. Empty arrays mean not supplied, not unavailable. Prices, dimensions and stock have not been provided.",
+  "products": [
+    {
+      "id": "barbed-wire",
+      "name": "Barbed Wire",
+      "available_gsm_options": [
+        120,
+        270
+      ],
+      "brand_options": [],
+      "price": null,
+      "stock_status": null,
+      "image": null,
+      "additional_specifications": {},
+      "enquiry_path": "/contact?product=barbed-wire#enquiry"
+    },
+    {
+      "id": "chain-link-fencing",
+      "name": "Chain Link Fencing",
+      "available_gsm_options": [
+        120,
+        270
+      ],
+      "brand_options": [
+        "Tata",
+        "Micron",
+        "Sunvik"
+      ],
+      "price": null,
+      "stock_status": null,
+      "image": null,
+      "additional_specifications": {},
+      "enquiry_path": "/contact?product=chain-link-fencing#enquiry"
+    },
+    {
+      "id": "gi-wire",
+      "name": "GI Wire",
+      "available_gsm_options": [],
+      "brand_options": [],
+      "price": null,
+      "stock_status": null,
+      "image": null,
+      "additional_specifications": {},
+      "enquiry_path": "/contact?product=gi-wire#enquiry"
+    },
+    {
+      "id": "concertina-coils",
+      "name": "Concertina Coils",
+      "available_gsm_options": [],
+      "brand_options": [],
+      "price": null,
+      "stock_status": null,
+      "image": null,
+      "additional_specifications": {},
+      "enquiry_path": "/contact?product=concertina-coils#enquiry"
+    },
+    {
+      "id": "gi-fencing-poles",
+      "name": "GI Fencing Poles",
+      "available_gsm_options": [],
+      "brand_options": [],
+      "price": null,
+      "stock_status": null,
+      "image": null,
+      "additional_specifications": {},
+      "enquiry_path": "/contact?product=gi-fencing-poles#enquiry"
+    }
+  ]
+}

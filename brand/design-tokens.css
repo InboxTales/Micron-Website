@@ -1,0 +1,32 @@
+/* Supporting website tokens. Font URLs are relative to this CSS file. */
+@font-face {
+  font-family: "Micron Sans";
+  src: url("../assets/fonts/DejaVuSans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Micron Sans";
+  src: url("../assets/fonts/DejaVuSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --micron-charcoal: #171b1c;
+  --micron-yellow: #f4d62b;
+  --micron-warm-white: #f6f5ef;
+  --micron-white: #ffffff;
+  --micron-steel-green: #64716c;
+  --micron-border: #d9ddda;
+  --font-body: "Micron Sans", Arial, sans-serif;
+  --font-heading: "Micron Sans", Arial, sans-serif;
+  --text-body: 1rem;
+  --line-body: 1.5;
+  --content-width: 75rem;
+  --page-gutter: clamp(1.25rem, 4vw, 4rem);
+  --section-space: clamp(3rem, 7vw, 6rem);
+  --control-height: 3rem;
+  --radius-control: 0.125rem;
+}

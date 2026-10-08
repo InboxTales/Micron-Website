@@ -1,0 +1,12 @@
+{
+  "light_background_logo": "assets/logos/SVG/micron-horizontal-charcoal.svg",
+  "dark_background_logo": "assets/logos/SVG/micron-horizontal-brand.svg",
+  "single_colour_reversed_logo": "assets/logos/SVG/micron-horizontal-white.svg",
+  "stacked_logo": "assets/logos/SVG/micron-stacked-charcoal.svg",
+  "square_symbol": "assets/logos/SVG/micron-icon-charcoal.svg",
+  "raster_logo": "assets/logos/PNG/micron-horizontal-charcoal.png",
+  "preview": "assets/previews/Micron_Logo_Preview.png",
+  "font_regular": "assets/fonts/DejaVuSans.ttf",
+  "font_bold": "assets/fonts/DejaVuSans-Bold.ttf",
+  "note": "All paths are relative to this pack root. Product and project photos are pending; no favicon or social-preview export is included."
+}

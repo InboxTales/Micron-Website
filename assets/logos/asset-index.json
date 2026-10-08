@@ -1,0 +1,112 @@
+[
+  {
+    "layout": "horizontal",
+    "colour": "charcoal",
+    "svg": "SVG/micron-horizontal-charcoal.svg",
+    "png": "PNG/micron-horizontal-charcoal.png",
+    "pixels": [
+      3200,
+      902
+    ]
+  },
+  {
+    "layout": "horizontal",
+    "colour": "white",
+    "svg": "SVG/micron-horizontal-white.svg",
+    "png": "PNG/micron-horizontal-white.png",
+    "pixels": [
+      3200,
+      902
+    ]
+  },
+  {
+    "layout": "horizontal",
+    "colour": "yellow",
+    "svg": "SVG/micron-horizontal-yellow.svg",
+    "png": "PNG/micron-horizontal-yellow.png",
+    "pixels": [
+      3200,
+      902
+    ]
+  },
+  {
+    "layout": "horizontal",
+    "colour": "brand",
+    "svg": "SVG/micron-horizontal-brand.svg",
+    "png": "PNG/micron-horizontal-brand.png",
+    "pixels": [
+      3200,
+      902
+    ]
+  },
+  {
+    "layout": "stacked",
+    "colour": "charcoal",
+    "svg": "SVG/micron-stacked-charcoal.svg",
+    "png": "PNG/micron-stacked-charcoal.png",
+    "pixels": [
+      2200,
+      1616
+    ]
+  },
+  {
+    "layout": "stacked",
+    "colour": "white",
+    "svg": "SVG/micron-stacked-white.svg",
+    "png": "PNG/micron-stacked-white.png",
+    "pixels": [
+      2200,
+      1616
+    ]
+  },
+  {
+    "layout": "stacked",
+    "colour": "yellow",
+    "svg": "SVG/micron-stacked-yellow.svg",
+    "png": "PNG/micron-stacked-yellow.png",
+    "pixels": [
+      2200,
+      1616
+    ]
+  },
+  {
+    "layout": "stacked",
+    "colour": "brand",
+    "svg": "SVG/micron-stacked-brand.svg",
+    "png": "PNG/micron-stacked-brand.png",
+    "pixels": [
+      2200,
+      1616
+    ]
+  },
+  {
+    "layout": "icon",
+    "colour": "charcoal",
+    "svg": "SVG/micron-icon-charcoal.svg",
+    "png": "PNG/micron-icon-charcoal.png",
+    "pixels": [
+      1600,
+      1600
+    ]
+  },
+  {
+    "layout": "icon",
+    "colour": "white",
+    "svg": "SVG/micron-icon-white.svg",
+    "png": "PNG/micron-icon-white.png",
+    "pixels": [
+      1600,
+      1600
+    ]
+  },
+  {
+    "layout": "icon",
+    "colour": "yellow",
+    "svg": "SVG/micron-icon-yellow.svg",
+    "png": "PNG/micron-icon-yellow.png",
+    "pixels": [
+      1600,
+      1600
+    ]
+  }
+]

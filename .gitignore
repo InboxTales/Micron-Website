@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+
+# Dependencies and build output (rebuild with `npm install` and `npm run build` in website/)
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment and tooling
+.env*.local
+.claude/

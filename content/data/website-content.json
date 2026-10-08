@@ -1,0 +1,138 @@
+{
+  "brand": "Micron Fencing Company",
+  "content_status": "Draft for business review",
+  "language": "en",
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/",
+      "content_file": "content/pages/01-home.md"
+    },
+    {
+      "label": "About Us",
+      "path": "/about",
+      "content_file": "content/pages/02-about.md"
+    },
+    {
+      "label": "Products",
+      "path": "/products",
+      "content_file": "content/pages/03-products.md"
+    },
+    {
+      "label": "Services",
+      "path": "/services",
+      "content_file": "content/pages/04-services.md"
+    },
+    {
+      "label": "Applications",
+      "path": "/applications",
+      "content_file": "content/pages/05-applications.md"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact",
+      "content_file": "content/pages/06-contact.md"
+    }
+  ],
+  "primary_cta": {
+    "label": "Get a Quote",
+    "path": "/contact#enquiry"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "path": "/",
+      "title": "Home",
+      "seo": {
+        "title": "Micron Fencing Company | Materials & Installation",
+        "description": "Explore barbed wire, chain link fencing, GI wire, concertina coils and fencing poles. Contact Micron for material supply, installation and servicing."
+      },
+      "content_markdown": "# Home\n\n## Hero\n\n### Fencing Materials. Professional Installation. Complete Boundary Solutions.\n\nFrom agricultural lands and open plots to housing projects and solar farms, Micron Fencing Company supplies fencing materials and provides installation and servicing tailored to your property.\n\n**Primary button:** Get a Quote\n**Secondary button:** Explore Products\n\n**Highlights:** Material Supply | Fencing Installation | Fencing Servicing\n\n## The Right Fencing Starts with the Right Materials\n\nEvery property has different boundary requirements. At Micron Fencing Company, we help you choose fencing materials and installation options that suit your site, purpose, and budget.\n\nWhether you need materials for a new project or support with existing fencing, we bring supply, installation, and servicing together.\n\n**Button:** About Micron\n\n## Find the Materials Your Project Needs\n\n### Barbed Wire\n\nA practical option for defining boundaries and restricting access across agricultural lands and open properties. Available in 120 GSM and 270 GSM options.\n\n### Chain Link Fencing\n\nMesh fencing for clearly defined boundaries while maintaining visibility across the site. Available in 120 GSM and 270 GSM, with options from Tata, Micron, and Sunvik.\n\n### GI Wire\n\nGalvanized iron wire for tying, supporting, and other fencing-related requirements. Contact us for available specifications.\n\n### Concertina Coils\n\nA boundary security option for sites that require an additional physical deterrent. Discuss suitability and installation requirements with our team.\n\n### GI Fencing Poles\n\nSupport poles for fencing installations. Contact us to select specifications appropriate for your fencing system and site.\n\n**Button:** View All Products\n\n## From Material Selection to Installation\n\nWe provide professional fencing installation and servicing for agricultural lands, open plots, housing projects, solar farms, and real estate ventures.\n\nOur team helps you plan a fencing solution around your property's layout and intended use.\n\n**Button:** Discuss Your Fencing Project\n\n## Fencing for Different Properties and Purposes\n\n- **Agricultural Lands:** Define farm boundaries and manage access to your land.\n- **Open Plots:** Establish a visible perimeter around vacant property.\n- **Housing Projects:** Fence project boundaries and designated areas.\n- **Solar Farms:** Define site perimeters and support controlled access.\n- **Real Estate Ventures:** Mark development boundaries and manage site access.\n\n**Button:** Explore Applications\n\n## Materials and Installation, Planned Together\n\n- **A choice of fencing products:** Select from wire, mesh, coils, and support poles.\n- **Options for your requirements:** Discuss product specifications based on the intended application.\n- **Installation support:** Get professional assistance with setting up your fencing.\n- **Servicing support:** Contact us when your existing fencing needs attention.\n\n## Tell Us About Your Site. We'll Help with the Next Steps.\n\n1. **Share your requirements:** Send your location, property type, approximate boundary length, and any available photographs.\n2. **Discuss suitable options:** Review materials and installation requirements with our team.\n3. **Request a quotation:** Get pricing based on the agreed specifications and scope.\n4. **Confirm the work:** Coordinate supply and installation based on the confirmed requirements.\n\n## Planning to Fence Your Property?\n\nTell us what you need, whether it is material supply, installation, or servicing.\n\n**Buttons:** Request a Quote | WhatsApp Your Requirements"
+    },
+    {
+      "slug": "about",
+      "path": "/about",
+      "title": "About Us",
+      "seo": {
+        "title": "About Micron Fencing Company",
+        "description": "Learn about Micron Fencing Company and our approach to fencing materials, installation and servicing for farms, plots and development projects."
+      },
+      "content_markdown": "# About Us\n\n## Fencing Solutions Built Around Your Requirements\n\nMicron Fencing Company supplies fencing materials and provides professional installation and servicing for a range of properties.\n\nOur product range includes barbed wire, chain link fencing, GI wire, concertina coils, and GI fencing poles. We work with customers seeking fencing solutions for agricultural lands, open plots, housing projects, solar farms, and real estate ventures.\n\n## Start with the Site. Choose the Right Solution.\n\nA fencing project involves more than selecting a product. The property layout, intended use, material specifications, and installation requirements all influence the final solution.\n\nWe focus on understanding these requirements and helping customers make informed choices.\n\n## Durable Materials. Reliable Installation. Practical Support.\n\nWe are committed to providing durable fencing materials, reliable installation, and complete fencing solutions tailored to our customers' requirements.\n\nFrom an initial enquiry to servicing an existing fence, our focus is on clear communication and work suited to the agreed scope.\n\n**Button:** Speak to Our Team"
+    },
+    {
+      "slug": "products",
+      "path": "/products",
+      "title": "Products",
+      "seo": {
+        "title": "Fencing Products | Micron Fencing Company",
+        "description": "Explore barbed wire, chain link fencing, GI wire, concertina coils and GI fencing poles. Ask Micron for available specifications and pricing."
+      },
+      "content_markdown": "# Products\n\n## Fencing Materials for Your Next Project\n\nExplore our range of fencing materials. Share your site requirements with us to discuss specifications, quantities, and current availability.\n\n## Barbed Wire\n\n### A Practical Choice for Boundary Fencing\n\nBarbed wire can be used to define boundaries and restrict access around agricultural lands and open properties.\n\n**Available options:** 120 GSM and 270 GSM.\n\nShare your boundary length and intended application to discuss a suitable configuration.\n\n**Button:** Enquire About Barbed Wire\n\n## Chain Link Fencing\n\n### Defined Boundaries with Clear Visibility\n\nChain link fencing creates a mesh perimeter while maintaining visibility through the fence. It can be considered for agricultural properties, housing projects, solar farms, and other sites based on their requirements.\n\n**Available options:** 120 GSM and 270 GSM.\n\n**Brand options:** Tata, Micron, and Sunvik.\n\nContact us for available mesh sizes, wire diameters, heights, and supply quantities.\n\n**Button:** Enquire About Chain Link Fencing\n\n## GI Wire\n\n### Wire for Fencing Support and Tying Requirements\n\nGI wire is used for tying, supporting, and related fencing applications. The appropriate specification depends on how and where it will be used.\n\nContact our team for available wire sizes and quantities.\n\n**Button:** Enquire About GI Wire\n\n## Concertina Coils\n\n### An Additional Physical Barrier for Your Perimeter\n\nConcertina coils can form part of a fencing system where additional boundary protection is required.\n\nOur team can discuss placement and installation requirements based on your site and its surroundings.\n\n**Button:** Enquire About Concertina Coils\n\n## GI Fencing Poles\n\n### Support for Your Fencing System\n\nGI fencing poles provide structural support for fencing installations. Pole selection should account for fence height, spacing, ground conditions, and the fencing material being used.\n\nContact us for available sizes and specifications.\n\n**Button:** Enquire About GI Fencing Poles\n\n## Not Sure Which Materials to Choose?\n\nSend us your property location, approximate boundary length, and site photographs. We'll help you discuss the available options.\n\n**Button:** Get Product Assistance"
+    },
+    {
+      "slug": "services",
+      "path": "/services",
+      "title": "Services",
+      "seo": {
+        "title": "Fencing Installation & Servicing | Micron",
+        "description": "Discuss fencing installation, servicing and material supply with Micron Fencing Company. Share your site details to request a quotation."
+      },
+      "content_markdown": "# Services\n\n## Professional Fencing Installation and Servicing\n\nGet support with new fencing installations and existing fences, based on your property's requirements.\n\n## Fencing Installation\n\n### Turn Your Boundary Plan into an Installed Fence\n\nWe provide fencing installation for agricultural lands, open plots, housing projects, solar farms, and real estate ventures.\n\nThe installation scope is determined by the site layout, selected materials, boundary length, and ground conditions.\n\nShare your site details to discuss requirements and request a quotation.\n\n**Button:** Request an Installation Quote\n\n## Fencing Servicing\n\n### Keep Your Existing Fencing in Working Condition\n\nIf your fence needs attention, share photographs and details of the affected sections with our team.\n\nWe will discuss the condition of the fencing and confirm the servicing work that can be undertaken.\n\n**Button:** Enquire About Servicing\n\n## Material Supply\n\n### Need Materials for Your Own Installation Team?\n\nContact us for barbed wire, chain link fencing, GI wire, concertina coils, and GI fencing poles.\n\nShare the product specifications and quantities you require to check availability and pricing.\n\n**Button:** Request Material Pricing"
+    },
+    {
+      "slug": "applications",
+      "path": "/applications",
+      "title": "Applications",
+      "seo": {
+        "title": "Fencing for Farms, Plots & Projects | Micron",
+        "description": "Find fencing solutions for agricultural lands, open plots, housing projects, solar farms and real estate ventures. Discuss your requirements with Micron."
+      },
+      "content_markdown": "# Applications\n\n## Fencing to Suit the Way You Use Your Property\n\nDifferent sites need different fencing arrangements. Explore the properties we serve and contact us to discuss your requirements.\n\n## Agricultural Lands\n\n### Define and Manage Your Farm Boundaries\n\nFencing helps establish a clear perimeter and manage access to agricultural land. Material selection depends on the size of the site and what the fencing needs to achieve.\n\n**Button:** Discuss Farm Fencing\n\n## Open Plots\n\n### Give Your Plot a Clearly Defined Perimeter\n\nEstablish a visible boundary around an open plot with fencing selected for its layout and intended use.\n\n**Button:** Discuss Plot Fencing\n\n## Housing Projects\n\n### Boundary Fencing for Residential Developments\n\nPlan fencing for project perimeters and designated areas, with materials and installation suited to the development's requirements.\n\n**Button:** Discuss Project Fencing\n\n## Solar Farms\n\n### Perimeter Fencing for Solar Sites\n\nDefine the site boundary and support controlled access with a fencing arrangement planned around the solar farm's layout.\n\n**Button:** Discuss Solar Farm Fencing\n\n## Real Estate Ventures\n\n### Clear Boundaries for Developing Properties\n\nPlan fencing around real estate projects to establish visible perimeters and help manage access as the property develops.\n\n**Button:** Discuss Your Site Requirements"
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "title": "Contact",
+      "seo": {
+        "title": "Contact Micron Fencing Company | Request a Quote",
+        "description": "Request a quote for fencing materials, installation or servicing. Share your location, approximate boundary length and site requirements with Micron."
+      },
+      "content_markdown": "# Contact\n\n## Tell Us About Your Fencing Requirement\n\nLooking for materials, installation, or servicing? Share a few details, and our team will contact you to discuss the next steps.\n\n## Contact Information\n\n- **Phone:** [Phone number]\n- **WhatsApp:** [WhatsApp number]\n- **Email:** [Email address]\n- **Address:** [Business address]\n- **Service Areas:** [Confirmed locations]\n- **Business Hours:** [Days and timings]\n\n## Request a Fencing Quote\n\n### Form fields\n\n- Full name - required\n- Phone number - required\n- Site location - required\n- Requirement - required; choose Materials, Installation, or Servicing\n- Property type - optional\n- Product of interest - optional\n- Approximate boundary length - optional; include a unit selector\n- Additional details - optional\n- Upload site photographs - optional\n\n**Submit button:** Submit Enquiry\n\n**Privacy note:** We'll use the details you provide to respond to your enquiry. Read our Privacy Policy for more information.\n\n**Success message:** Thank you for contacting Micron Fencing Company. Your enquiry has been received. Our team will contact you to discuss your requirements.\n\n**Error message:** We couldn't send your enquiry. Please try again or contact us by phone."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What fencing products do you supply?",
+      "answer": "We supply barbed wire, chain link fencing, GI wire, concertina coils, and GI fencing poles."
+    },
+    {
+      "question": "What options are available for barbed wire and chain link fencing?",
+      "answer": "Both are available in 120 GSM and 270 GSM options. Contact us to confirm the complete specifications for your requirement."
+    },
+    {
+      "question": "Which chain link fencing brands are available?",
+      "answer": "We offer chain link fencing options from Tata, Micron, and Sunvik. Contact us for current availability."
+    },
+    {
+      "question": "Do you provide fencing installation?",
+      "answer": "Yes. We provide professional fencing installation for agricultural lands, open plots, housing projects, solar farms, and real estate ventures."
+    },
+    {
+      "question": "Do you service existing fencing?",
+      "answer": "Yes. Share your location, photographs, and a description of the work required so we can discuss the servicing scope."
+    },
+    {
+      "question": "Can I purchase materials without installation?",
+      "answer": "Yes. Contact us with the products, specifications, and quantities you require."
+    },
+    {
+      "question": "How is fencing pricing calculated?",
+      "answer": "Pricing depends on the selected products, specifications, quantities, and installation requirements. Share your site details to request a quotation."
+    },
+    {
+      "question": "What information should I provide for a quote?",
+      "answer": "Your site location, property type, approximate boundary length, required service, and available photographs will help us understand the project."
+    }
+  ],
+  "shared_content_markdown": "# Shared Website Content\n\n## Navigation\n\nHome | About Us | Products | Services | Applications | Contact\n\n**Primary navigation button:** Get a Quote\n\n**Mobile quick actions:** Call Now | WhatsApp Us\n\n## Footer\n\n**Micron Fencing Company**\n\nFencing materials, professional installation, and servicing for agricultural lands, open plots, housing projects, solar farms, and real estate ventures.\n\n**Quick Links:** Home | About Us | Products | Services | Applications | Contact\n\n**Products:** Barbed Wire | Chain Link Fencing | GI Wire | Concertina Coils | GI Fencing Poles\n\n**Contact:** [Phone] | [Email] | [Address]\n\nCopyright [Year] Micron Fencing Company. All rights reserved.\n\n**Policy link:** Privacy Policy\n\n## Short Brand Copy\n\n**Proposed tagline:** Boundaries. Defined.\n\n**Short introduction:** Micron Fencing Company supplies fencing materials and provides installation and servicing for agricultural lands, open plots, housing projects, solar farms, and real estate ventures.\n\n**WhatsApp enquiry starter:** Hello Micron Fencing Company, I need help with fencing. My site location is [Location], the approximate boundary length is [Length and unit], and I need [Materials / Installation / Servicing].\n\n## Form Microcopy\n\n- Missing name: Please enter your name.\n- Missing phone: Please enter your phone number.\n- Invalid phone: Please enter a valid phone number, including the country code if needed.\n- Missing site: Please enter your site location.\n- Missing requirement: Please choose the service you need.\n- Sending: Sending enquiry...\n- Upload hint: Add clear photographs of your site or the fence that needs attention.\n\n## Not Found Page\n\n**Heading:** This page is outside the boundary.\n\n**Body:** We couldn't find the page you were looking for. Explore our products or return to the homepage.\n\n**Buttons:** Back to Home | Explore Products"
+}

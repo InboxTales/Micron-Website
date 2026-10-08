@@ -1,0 +1,43 @@
+{
+  "pages": [
+    {
+      "label": "Home",
+      "path": "/",
+      "content_file": "content/pages/01-home.md"
+    },
+    {
+      "label": "About Us",
+      "path": "/about",
+      "content_file": "content/pages/02-about.md"
+    },
+    {
+      "label": "Products",
+      "path": "/products",
+      "content_file": "content/pages/03-products.md"
+    },
+    {
+      "label": "Services",
+      "path": "/services",
+      "content_file": "content/pages/04-services.md"
+    },
+    {
+      "label": "Applications",
+      "path": "/applications",
+      "content_file": "content/pages/05-applications.md"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact",
+      "content_file": "content/pages/06-contact.md"
+    }
+  ],
+  "faq_placement": [
+    "Home",
+    "Contact"
+  ],
+  "footer_policy": {
+    "label": "Privacy Policy",
+    "path": "/privacy-policy",
+    "status": "Needs business-specific content before launch"
+  }
+}
