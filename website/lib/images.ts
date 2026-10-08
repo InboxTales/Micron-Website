@@ -61,10 +61,10 @@ export const images = {
     alt: "Concertina coil mounted along the top of a perimeter wall and fence",
     label: "Concertina coil",
   },
-  productGiPoles: {
-    src: "/images/product-gi-poles.webp",
-    alt: "Galvanized iron fencing poles stacked in an outdoor yard",
-    label: "GI fencing poles",
+  productAngularPoles: {
+    src: "/images/product-angular-poles.webp",
+    alt: "L-section steel angular fence poles with pre-drilled holes, stacked in a materials yard",
+    label: "Angular poles",
   },
   serviceInstallation: {
     src: "/images/service-installation.webp",
@@ -105,6 +105,11 @@ export const images = {
     src: "/images/application-real-estate.webp",
     alt: "Fenced real estate layout with internal roads and marked plots",
     label: "Real estate venture",
+  },
+  projectSolar: {
+    src: "/images/projects/solar-farm.webp",
+    alt: "Chain link perimeter fencing installed by Micron Wires at a solar farm",
+    label: "Solar farm project",
   },
 } satisfies Record<string, SiteImage>;
 

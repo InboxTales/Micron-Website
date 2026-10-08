@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ImageKey } from "@/lib/images";
 import { breadcrumbJsonLd } from "@/lib/seo";
-import { addressText, business, emailLink, faqs, phoneLink, steps, whatsappLink } from "@/lib/site";
+import { addressText, business, emailLink, faqs, phoneLinks, steps, whatsappLink } from "@/lib/site";
 import { Clock, Mail, MapPin, Phone, WhatsApp } from "./Icons";
 import { JsonLd } from "./JsonLd";
 import { Photo } from "./Photo";
@@ -69,7 +69,6 @@ export function ProcessSteps({ heading = "Tell Us About Your Site. We'll Help wi
 
 /** Charcoal panel with phone, WhatsApp, email, address and hours. */
 export function ContactDetails() {
-  const phone = phoneLink();
   const whatsapp = whatsappLink();
   const email = emailLink();
 
@@ -78,10 +77,12 @@ export function ContactDetails() {
       <div className="contact-panel__group">
         <h3 className="contact-panel__title">Talk to Our Team</h3>
         <ul className="contact-list">
-          <li>
-            <Phone size={18} />
-            <a href={phone.href}>{phone.label}</a>
-          </li>
+          {phoneLinks().map((p) => (
+            <li key={p.href}>
+              <Phone size={18} />
+              <a href={p.href}>{p.label}</a>
+            </li>
+          ))}
           <li>
             <WhatsApp size={18} />
             <a href={whatsapp.href}>{whatsapp.label}</a>
@@ -93,16 +94,18 @@ export function ContactDetails() {
         </ul>
       </div>
       <div className="contact-panel__group">
-        <h3 className="contact-panel__title">Address &amp; Service Areas</h3>
+        <h3 className="contact-panel__title">
+          {business.serviceAreas.length ? <>Address &amp; Service Areas</> : "Our Address"}
+        </h3>
         <ul className="contact-list">
           <li>
             <MapPin size={18} />
             <span>{addressText()}</span>
           </li>
         </ul>
-        <p className="contact-panel__note">
-          Serving: {business.serviceAreas.length ? business.serviceAreas.join(", ") : "[Confirmed locations]"}
-        </p>
+        {business.serviceAreas.length > 0 && (
+          <p className="contact-panel__note">Serving: {business.serviceAreas.join(", ")}</p>
+        )}
       </div>
       <div className="contact-panel__group contact-panel__group--hours">
         <span className="contact-panel__icon">

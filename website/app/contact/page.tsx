@@ -6,9 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { ContactDetails, Eyebrow, FaqList, PageHero } from "@/components/Sections";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Contact Micron Wires | Request a Fencing Quote",
+  title: "Contact Micron Wires, Ibrahimpatnam | Request a Fencing Quote",
   description:
-    "Request a quote from Micron Wires for fencing materials, installation or servicing. Share your location, approximate boundary length and site requirements.",
+    "Request a quote from Micron Wires, near Bongulur X Road, Ibrahimpatnam, Telangana, for fencing materials, installation or servicing. Call +91 81219 09779.",
   path: "/contact/",
 });
 

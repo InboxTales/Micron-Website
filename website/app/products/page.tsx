@@ -9,7 +9,7 @@ import { products } from "@/lib/site";
 export const metadata: Metadata = pageMetadata({
   title: "Barbed Wire, Chain Link Fencing & GI Wire | Micron Wires",
   description:
-    "Barbed wire and chain link fencing in 120 and 270 GSM, GI wire, concertina coils and GI fencing poles from Micron Wires. Ask for specifications and pricing.",
+    "Barbed wire and chain link fencing in 120 and 270 GSM, GI wire, concertina coils and angular poles from Micron Wires. Ask for specifications and pricing.",
   path: "/products/",
 });
 

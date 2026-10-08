@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { business, faqs, openingHours, products, services, siteConfig } from "./site";
+import { business, faqs, openingHours, phoneLinks, products, services, siteConfig } from "./site";
 
 export const ogImage = {
   url: "/og-image.jpg",
@@ -49,19 +49,28 @@ export function siteJsonLd() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization",
+        // A LocalBusiness subtype (itself an Organization) so Google can use the address and hours
+        "@type": "HomeAndConstructionBusiness",
         "@id": orgId,
         name: business.name,
         alternateName: business.altName,
         legalName: business.legalName,
         foundingDate: String(business.yearEstablished),
         taxID: business.gstin,
+        image: `${siteConfig.url}${ogImage.url}`,
         address: {
           "@type": "PostalAddress",
-          ...(business.address ? { streetAddress: business.address } : {}),
-          addressRegion: business.region,
-          postalCode: business.postalCode,
+          streetAddress: business.address.street,
+          addressLocality: `${business.address.locality}, ${business.address.district}`,
+          addressRegion: business.address.region,
+          postalCode: business.address.postalCode,
           addressCountry: "IN",
+        },
+        openingHoursSpecification: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: openingHours.days,
+          opens: openingHours.opens,
+          closes: openingHours.closes,
         },
         url: siteConfig.url,
         logo: `${siteConfig.url}/icons/icon-512.png`,
@@ -74,23 +83,13 @@ export function siteJsonLd() {
         })),
         ...(business.phone ? { telephone: business.phone } : {}),
         ...(business.email ? { email: business.email } : {}),
-        ...(business.phone
-          ? {
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: business.phone,
-                ...(business.email ? { email: business.email } : {}),
-                contactType: "sales",
-                areaServed: "IN",
-                hoursAvailable: {
-                  "@type": "OpeningHoursSpecification",
-                  dayOfWeek: openingHours.days,
-                  opens: openingHours.opens,
-                  closes: openingHours.closes,
-                },
-              },
-            }
-          : {}),
+        contactPoint: phoneLinks().map((p) => ({
+          "@type": "ContactPoint",
+          telephone: p.label,
+          ...(business.email ? { email: business.email } : {}),
+          contactType: "sales",
+          areaServed: "IN",
+        })),
       },
       {
         "@type": "WebSite",

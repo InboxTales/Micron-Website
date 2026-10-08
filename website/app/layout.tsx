@@ -14,7 +14,7 @@ const outfit = Outfit({ subsets: ["latin"], weight: ["500", "600", "700"], varia
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const description =
-  "Micron Wires (Micron Fencing Company) supplies barbed wire, chain link fencing, GI wire, concertina coils and GI fencing poles, with professional fencing installation and servicing.";
+  "Micron Wires (Micron Fencing Company) supplies barbed wire, chain link fencing, GI wire, concertina coils and angular poles, with professional fencing installation and servicing.";
 
 // Icons and the manifest come from file conventions in app/ (favicon.ico,
 // icon.svg, apple-icon.png, manifest.ts); the share image is public/og-image.jpg.
@@ -33,7 +33,10 @@ export const metadata: Metadata = {
     "chain link fencing",
     "GI wire",
     "concertina coil",
-    "GI fencing poles",
+    "angular poles",
+    "angle iron fence posts",
+    "fencing Ibrahimpatnam",
+    "fencing Ranga Reddy",
     "fencing installation",
     "fencing contractor",
     "farm fencing",

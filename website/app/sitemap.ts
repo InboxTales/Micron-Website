@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { images, type ImageKey } from "@/lib/images";
-import { applications, products, siteConfig } from "@/lib/site";
+import { applications, products, projectPhotos, siteConfig } from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -32,6 +32,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
       images: imgs(...applications.map((a) => a.image)),
+    },
+    {
+      url: abs("/clients/"),
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7,
+      images: projectPhotos.map((p) => abs(p.src)),
     },
     { url: abs("/about/"), lastModified, changeFrequency: "yearly", priority: 0.6, images: imgs("about") },
     { url: abs("/contact/"), lastModified, changeFrequency: "yearly", priority: 0.7 },

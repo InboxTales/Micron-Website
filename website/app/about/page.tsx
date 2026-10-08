@@ -46,9 +46,10 @@ export default function AboutPage() {
             <h2 className="h2">Fencing Materials, Installation and Servicing</h2>
             <div className="prose" style={{ marginTop: "1.5rem" }}>
               <p>
-                Established in 2008 and based in Telangana, Micron Fencing Company (Micron Wires) supplies fencing
-                materials and provides installation and servicing. Our product range includes barbed wire, chain link fencing, GI wire, concertina coils, and GI fencing
-                poles. We work with customers seeking fencing solutions for agricultural lands, open plots, housing
+                Established in 2008 and based near Bongulur X Road in Ibrahimpatnam, Ranga Reddy District, Telangana,
+                Micron Fencing Company (Micron Wires) supplies fencing materials and provides installation and
+                servicing. Our product range includes barbed wire, chain link fencing, GI wire, concertina coils, and
+                angular poles. We work with customers seeking fencing solutions for agricultural lands, open plots, housing
                 projects, solar farms, and real estate ventures.
               </p>
             </div>

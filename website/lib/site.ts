@@ -21,17 +21,24 @@ export const business = {
   legalName: "Micron Wires",
   gstin: "36BBCPR5457C1ZN",
   yearEstablished: 2008,
-  region: "Telangana",
-  postalCode: "501506",
+  /** As printed on the tax invoice */
+  address: {
+    street: "Plot No. 10 & 11, Sy. No. 120, Managalapalle Village, Patelguda GP, Near Bongulur X Road",
+    locality: "Ibrahimpatnam Mandal",
+    district: "Ranga Reddy",
+    region: "Telangana",
+    postalCode: "501510",
+  },
   tagline: "Boundaries. Defined.",
   shortIntro:
     "Fencing materials, professional installation, and servicing for agricultural lands, open plots, housing projects, solar farms, and real estate ventures.",
-  /** Display format, e.g. "+91 98765 43210" */
+  /** Main number (Call Now, Google), display format */
   phone: "+91 81219 09779" as string | null,
+  /** Further numbers shown alongside the main one */
+  otherPhones: ["+91 63037 54805"],
   /** International format, digits only, e.g. "919876543210" */
   whatsapp: "918121909779" as string | null,
   email: "info@micron.in" as string | null,
-  address: null as string | null,
   serviceAreas: [] as string[],
   hours: "Monday – Saturday, 9:00 AM – 6:00 PM (Sunday closed)" as string | null,
 };
@@ -66,9 +73,16 @@ export function whatsappLink() {
   };
 }
 
-/** Full street address once supplied; until then the verified state and PIN code. */
 export function addressText() {
-  return business.address ?? `${business.region}, India – ${business.postalCode}`;
+  const a = business.address;
+  return `${a.street}, ${a.locality}, ${a.district} District, ${a.region} – ${a.postalCode}`;
+}
+
+/** Every phone number as a display label + tel: link, main number first. */
+export function phoneLinks() {
+  return [business.phone, ...business.otherPhones]
+    .filter((p): p is string => Boolean(p))
+    .map((p) => ({ label: p, href: `tel:${p.replace(/[^\d+]/g, "")}` }));
 }
 
 export function emailLink() {
@@ -82,6 +96,7 @@ export const nav = [
   { label: "Products", href: "/products" },
   { label: "Services", href: "/services" },
   { label: "Applications", href: "/applications" },
+  { label: "Clients", href: "/clients" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -154,14 +169,14 @@ export const products: Product[] = [
     brands: [],
   },
   {
-    id: "gi-fencing-poles",
-    name: "GI Fencing Poles",
-    image: "productGiPoles",
+    id: "angular-poles",
+    name: "Angular Poles",
+    image: "productAngularPoles",
     summary:
-      "Support poles for fencing installations, selected to suit your fencing system and site.",
-    headline: "Support for Your Fencing System",
+      "L-section steel poles that support barbed wire and chain link fencing, selected to suit your site.",
+    headline: "Strong Support for Your Fencing System",
     body: [
-      "GI fencing poles provide structural support for fencing installations. Pole selection should account for fence height, spacing, ground conditions, and the fencing material being used.",
+      "Angular poles are L-section steel posts that provide structural support for fencing installations. Pole selection should account for fence height, spacing, ground conditions, and the fencing material being used.",
       "Contact us for available sizes and specifications.",
     ],
     gsm: [],
@@ -259,7 +274,7 @@ export const services = [
     image: "serviceSupply" as ImageKey,
     headline: "Need Materials for Your Own Installation Team?",
     body: [
-      "Contact us for barbed wire, chain link fencing, GI wire, concertina coils, and GI fencing poles.",
+      "Contact us for barbed wire, chain link fencing, GI wire, concertina coils, and angular poles.",
       "Share the product specifications and quantities you require to check availability and pricing.",
     ],
     cta: "Request Material Pricing",
@@ -308,7 +323,7 @@ export const benefits = [
 export const faqs = [
   {
     q: "What fencing products do you supply?",
-    a: "We supply barbed wire, chain link fencing, GI wire, concertina coils, and GI fencing poles.",
+    a: "We supply barbed wire, chain link fencing, GI wire, concertina coils, and angular poles.",
   },
   {
     q: "What options are available for barbed wire and chain link fencing?",
@@ -338,4 +353,64 @@ export const faqs = [
     q: "What information should I provide for a quote?",
     a: "Your site location, property type, approximate boundary length, required service, and available photographs will help us understand the project.",
   },
+];
+
+/* Clients and previous projects, as supplied by the business. Logos are cropped
+   from screenshots the business supplied; the Andhra Pradesh emblem is the clean
+   Wikimedia Commons copy (GODL-India) because the screenshot was mid-load. The
+   state emblems and MNRE logo include India's national emblem: shown at the business's request
+   to identify past government projects (see the note on the Clients page). */
+export type Client = {
+  name: string;
+  detail?: string;
+  /** Initials badge when there is no logo */
+  mark?: string;
+  logo?: { src: string; width: number; height: number };
+};
+
+export const clients: { private: Client[]; government: Client[] } = {
+  private: [
+    { name: "Raghava Constructions", mark: "RC" },
+    { name: "S R Group", logo: { src: "/images/clients/sr-group.png", width: 163, height: 153 } },
+    { name: "One Developers Pvt. Ltd.", mark: "OD" },
+    { name: "SGD Developers", logo: { src: "/images/clients/sgd-developers.png", width: 93, height: 100 } },
+  ],
+  government: [
+    {
+      name: "Government of Telangana",
+      detail: "Municipality works",
+      logo: { src: "/images/clients/government-of-telangana.png", width: 240, height: 240 },
+    },
+    { name: "HMDA", detail: "Hyderabad Metropolitan Development Authority · Outer Ring Road", logo: { src: "/images/clients/hmda.png", width: 237, height: 138 } },
+    { name: "TGSPDCL", detail: "Southern Power Distribution Company of Telangana", logo: { src: "/images/clients/tgspdcl.png", width: 640, height: 147 } },
+    { name: "HMWSSB", detail: "Hyderabad Metropolitan Water Supply & Sewerage Board", logo: { src: "/images/clients/hmwssb.png", width: 456, height: 240 } },
+    {
+      name: "Government of Andhra Pradesh",
+      detail: "Government projects",
+      logo: { src: "/images/clients/government-of-andhra-pradesh.png", width: 240, height: 260 },
+    },
+    { name: "SECI", detail: "Solar Energy Corporation of India", logo: { src: "/images/clients/seci.png", width: 372, height: 236 } },
+    {
+      name: "MNRE",
+      detail: "Ministry of New and Renewable Energy",
+      logo: { src: "/images/clients/mnre.png", width: 487, height: 240 },
+    },
+  ],
+};
+
+/** Real photos from Micron Wires sites and yard (public/images/projects). */
+export const projectPhotos = [
+  { src: "/images/projects/solar-farm.webp", width: 1280, height: 960, caption: "Perimeter chain link fencing at a solar farm" },
+  { src: "/images/projects/farm-chain-link.webp", width: 1280, height: 960, caption: "Chain link fencing with concrete posts along paddy fields" },
+  { src: "/images/projects/chain-link-install.webp", width: 960, height: 1280, caption: "Chain link mesh laid out for installation on a new site" },
+  { src: "/images/projects/roadside-barbed-wire.webp", width: 1096, height: 941, caption: "Barbed wire fencing on concrete posts beside a road" },
+  { src: "/images/projects/site-delivery.webp", width: 960, height: 1280, caption: "Delivering chain link rolls to site" },
+  { src: "/images/projects/barbed-wire-concrete-posts.webp", width: 1280, height: 719, caption: "Barbed wire fencing on concrete posts with angled tops" },
+  { src: "/images/projects/field-boundary-install.webp", width: 960, height: 1280, caption: "Chain link fencing going up along a field boundary" },
+  { src: "/images/projects/micron-yard.webp", width: 1280, height: 960, caption: "Micron Wires yard and delivery vehicles" },
+  { src: "/images/projects/open-plot-posts.webp", width: 1280, height: 960, caption: "Fence posts set out around an open plot" },
+  { src: "/images/projects/chain-link-bent-posts.webp", width: 960, height: 1280, caption: "Chain link fencing on concrete posts with angled tops" },
+  { src: "/images/projects/gi-wire-coils.webp", width: 1219, height: 645, caption: "GI wire coils ready for supply" },
+  { src: "/images/projects/farm-compound.webp", width: 1280, height: 960, caption: "Chain link fencing around a farm compound" },
+  { src: "/images/projects/coated-chain-link.webp", width: 958, height: 1280, caption: "Coated chain link mesh rolls" },
 ];

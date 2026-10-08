@@ -1080,12 +1080,13 @@ textarea {
 }
 .contact-list li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
   color: var(--on-dark-muted);
 }
 .contact-list svg {
   flex: none;
+  margin-top: 3px;
   color: var(--yellow);
 }
 .contact-list a:hover {
@@ -1359,6 +1360,117 @@ textarea {
 .a-card--cta .btn {
   align-self: flex-start;
   margin-top: 2rem;
+}
+
+/* --- Clients page ------------------------------------------------------ */
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+.logo-tile {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  transition:
+    border-color 0.3s var(--ease),
+    transform 0.3s var(--ease),
+    box-shadow 0.3s var(--ease);
+}
+.logo-tile:hover {
+  border-color: var(--charcoal);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+.logo-tile__plate {
+  display: grid;
+  place-items: center;
+  height: 140px;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  background: var(--white);
+}
+.logo-tile:not(.logo-tile--dark) .logo-tile__plate {
+  background: var(--warm-white);
+}
+.logo-tile__plate img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 96px;
+  object-fit: contain;
+}
+.logo-tile__mark {
+  display: grid;
+  place-items: center;
+  min-width: 72px;
+  height: 72px;
+  padding-inline: 1rem;
+  border-radius: 16px;
+  background: var(--yellow);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--charcoal);
+}
+.logo-tile__name {
+  margin: 1.125rem 0.5rem 0;
+  font-size: 1.125rem;
+}
+.logo-tile__detail {
+  margin: 0.375rem 0.5rem 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.logo-tile--dark {
+  border-color: var(--line-dark);
+  background: var(--charcoal-2);
+}
+.logo-tile--dark:hover {
+  border-color: var(--yellow);
+}
+.logo-tile--dark .logo-tile__detail {
+  color: var(--on-dark-muted);
+}
+.client-note {
+  margin-top: 1.75rem;
+  font-size: 0.8125rem;
+  color: var(--on-dark-muted);
+}
+.section-head__aside--light {
+  color: var(--on-dark-muted);
+}
+.project-gallery {
+  columns: 3 280px;
+  column-gap: 1.25rem;
+}
+.project-photo {
+  margin: 0 0 1.25rem;
+  break-inside: avoid;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--warm-white);
+}
+.project-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.6s var(--ease);
+}
+.project-photo:hover img {
+  transform: scale(1.03);
+}
+.project-photo figcaption {
+  position: relative;
+  padding: 0.875rem 1rem;
+  background: var(--warm-white);
+  font-size: 0.875rem;
+  color: var(--muted);
 }
 
 /* --- Contact page ------------------------------------------------------- */
@@ -2031,6 +2143,9 @@ textarea {
   .not-found__links {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .client-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 900px) {
@@ -2093,6 +2208,7 @@ textarea {
     width: 100%;
   }
   .card-grid,
+  .client-grid,
   .steps,
   .why__box,
   .why__box--three,

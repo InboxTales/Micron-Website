@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { addressText, business, emailLink, nav, phoneLink, products, quotePath, whatsappLink } from "@/lib/site";
+import { addressText, business, emailLink, nav, phoneLinks, products, quotePath, whatsappLink } from "@/lib/site";
 import { CookieSettingsButton } from "./CookieConsent";
 import { ArrowRight, Mail, MapPin, Phone, WhatsApp } from "./Icons";
 
 export function Footer() {
-  const phone = phoneLink();
   const email = emailLink();
   const whatsapp = whatsappLink();
 
@@ -73,10 +72,12 @@ export function Footer() {
           <div>
             <h3 className="footer-heading">Contact</h3>
             <ul className="footer-contact">
-              <li>
-                <Phone size={18} />
-                <a href={phone.href}>{phone.label}</a>
-              </li>
+              {phoneLinks().map((p) => (
+                <li key={p.href}>
+                  <Phone size={18} />
+                  <a href={p.href}>{p.label}</a>
+                </li>
+              ))}
               <li>
                 <Mail size={18} />
                 <a href={email.href}>{email.label}</a>
@@ -91,7 +92,7 @@ export function Footer() {
 
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} Micron Fencing Company (Micron Wires). All rights reserved.</p>
-          <p>GSTIN {business.gstin} · Photographs are illustrative.</p>
+          <p>GSTIN {business.gstin} · Project photos are from Micron Wires sites; other photos are illustrative.</p>
           <div className="footer-bottom__links">
             <Link href="/privacy/">Privacy Policy</Link>
             <CookieSettingsButton className="footer-bottom__btn" />
