@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_not-found/
+
+Host: https://www.micronwires.in
+Sitemap: https://www.micronwires.in/sitemap.xml
