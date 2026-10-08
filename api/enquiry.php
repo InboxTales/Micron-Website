@@ -27,7 +27,7 @@ const PRODUCTS = [
     'chain-link-fencing' => 'Chain Link Fencing',
     'gi-wire' => 'GI Wire',
     'concertina-coils' => 'Concertina Coils',
-    'gi-fencing-poles' => 'GI Fencing Poles',
+    'angular-poles' => 'Angular Poles',
     'not-sure' => 'Not sure yet',
 ];
 
